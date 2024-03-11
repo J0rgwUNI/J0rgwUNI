@@ -1,16 +1,4 @@
 
-         
- \\      (o>
- (o>     //\ 
-_(()_____V_/_____
- ||      ||
-         ||   
-         \\
- \\      (o>
- (o>     //\ 
-_(()_____V_/_____
- ||      ||
-         ||
 
 -={ see no evil }={ hear no evil }={ speak no evil }={ Start coding }=
 
