@@ -1,0 +1,53 @@
+#globalWrapper {
+    font-family: roboto;
+    /*overflow-x: hidden;*/
+}
+
+header h1 {
+    text-align: center;
+    text-decoration: solid;
+
+}
+
+header {
+    height: 150px;
+}
+
+@media(prefers-color-scheme:dark){
+    body {
+        background-color: Canvas;
+        color: CanvasText;
+        color-scheme: light dark;
+        --text-color:light-dark(#333, #ccc);
+        background-color: color-mix(in srgb, Canvas, CanvasText 2.5%);
+        color: color-mix(in srgb, CanvasText, Canvas 15%);
+        background: hsl(from ActiveText h calc(s - 30%) l);
+
+    }
+}
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: auto;
+    padding: 1rem;
+}
+
+.list {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+/*https://isotropic.co/tool/hex-color-to-css-filter/*/
+.filtro {
+    filter: invert(64%) sepia(59%) saturate(620%) hue-rotate(182deg) brightness(106%) contrast(99%);
+}
